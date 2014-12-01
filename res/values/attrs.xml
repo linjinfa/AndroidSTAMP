@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- linjinfa  slideguide-->
+    <declare-styleable name="slideguide">
+        <attr name="menuIcons" format="reference"/>
+        <attr name="menuNames" format="reference"/>
+        <attr name="fragments" format="reference"/>
+        <attr name="fragmentViewId" format="reference"/>
+        <attr name="sliderImg" format="reference"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="textSize" format="integer"/>
+    </declare-styleable>
+    
+    <!-- linjinfa  RadioButtonCenter -->
+    <declare-styleable name="CompoundButton">
+        <attr name="android:button" />
+    </declare-styleable>
+    
+</resources>

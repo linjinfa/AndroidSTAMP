@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="main_menuIcons">
+        <item>@drawable/menu_watch_focus</item>
+        <item>@drawable/menu_watch_focus</item>
+        <item>@drawable/menu_watch_focus</item>
+        <item>@drawable/menu_watch_focus</item>
+    </array>
+    <array name="main_menuNames">
+        <item>SNMP</item>
+        <item>讨论</item>
+        <item>统计</item>
+        <item>我</item>
+    </array>
+    <array name="main_menu_click">
+        <item>com.aaron.stamp.module.stamp.StampFragment</item>
+    </array>
+</resources>

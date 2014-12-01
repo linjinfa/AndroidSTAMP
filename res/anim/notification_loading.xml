@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/notification_loading00" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading01" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading02" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading03" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading04" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading05" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading06" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading07" />
+    <item android:duration="100" android:drawable="@drawable/notification_loading08" />
+</animation-list>

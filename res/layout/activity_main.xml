@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slideguide="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_bg_grey"
+    android:orientation="vertical"
+    >
+
+	<FrameLayout 
+        android:id="@+id/mainFrameLay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></FrameLayout>
+    
+    <com.aaron.stamp.frame.view.SlideGuideMenu
+        android:id="@+id/slideGuideMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:background="@drawable/menu_bg"
+        slideguide:menuIcons="@array/main_menuIcons"
+        slideguide:menuNames="@array/main_menuNames"
+        slideguide:fragments="@array/main_menu_click"
+        slideguide:fragmentViewId="@+id/mainFrameLay"
+        slideguide:sliderImg="@drawable/slider_menu_bg"
+        slideguide:textSize="20"
+        />
+    
+</LinearLayout>

@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aaron.stamp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:label="@string/app_name"
+        android:name=".frame.application.StampApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/ThemeNoTitleAnimActivity" >
+        
+        <activity 
+            android:name=".module.guide.GuideActivity"
+            android:theme="@style/ThemeNoTitleFullscreenTransparentNoAnimActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity 
+		    android:name=".module.login.LoginActivity"
+		    ></activity>
+        
+		<activity 
+		    android:name=".module.main.MainActivity"
+		    ></activity>
+        
+    </application>
+
+</manifest>
