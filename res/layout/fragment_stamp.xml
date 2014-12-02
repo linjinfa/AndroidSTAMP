@@ -65,12 +65,30 @@
             android:textSize="@dimen/sp17" />
     </RelativeLayout>
 
-    <FrameLayout
-        android:id="@+id/stampFrameLay"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        tools:ignore="UselessLeaf" >
-    </FrameLayout>
-
+	<ViewFlipper 
+	    android:id="@+id/viewFlipper"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    >
+        <include 
+            layout="@layout/basic_info_layout"
+            />
+        <include 
+            layout="@layout/ass_opp_layout"
+            />
+        <include 
+            layout="@layout/mal_risk_layout"
+            />
+        <include 
+            layout="@layout/nutri_intake_layout"
+            />
+        <include 
+            layout="@layout/growth_layout"
+            />
+        <include 
+            layout="@layout/result_layout"
+            />
+	</ViewFlipper>
+    
 </LinearLayout>

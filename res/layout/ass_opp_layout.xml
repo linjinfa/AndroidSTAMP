@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_bg_grey"
+    android:orientation="vertical"
+    android:padding="10dp" 
+    android:contentDescription="评估时机"
+    >
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="入院"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="转入"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="禁食禁水及三天以上"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="大手术（开腔）后三天及以上"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="其他"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17" />
+
+</RadioGroup>

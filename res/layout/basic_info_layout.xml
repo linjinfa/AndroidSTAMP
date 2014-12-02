@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_bg_grey" 
+    android:contentDescription="基本信息"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="姓名："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:textSize="@dimen/sp17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="性别："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="男"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp17" />
+
+                <RadioButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="女"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp17" />
+            </RadioGroup>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="出生日期："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:textSize="@dimen/sp17" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="年龄："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <RelativeLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <EditText
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:digits="0123456789"
+	                android:inputType="number"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="岁"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="身高："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <RelativeLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <EditText
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:inputType="numberDecimal"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="cm"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="体重："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <RelativeLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <EditText
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:inputType="numberDecimal"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="kg"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="BMI："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+            
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:textSize="@dimen/sp17" />
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="头围："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <RelativeLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <EditText
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:inputType="numberDecimal"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="cm"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+            </RelativeLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="分娩孕周："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                >
+                <EditText
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:digits="0123456789"
+	                android:inputType="number"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="周"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+	            
+                <EditText
+	                android:layout_width="0dp"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1"
+	                android:digits="0123456789"
+	                android:inputType="number"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="天"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+	            
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:gravity="right|center_vertical"
+                android:text="胎龄："
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp17" />
+
+            <RelativeLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <EditText
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:digits="0123456789"
+	                android:inputType="number"
+	                android:textSize="@dimen/sp17" />
+	            
+	            <TextView
+	                android:layout_width="wrap_content"
+	                android:layout_height="match_parent"
+	                android:layout_alignParentRight="true"
+	                android:layout_marginRight="10dp"
+	                android:gravity="right|center_vertical"
+	                android:text="周"
+	                android:textColor="@color/black"
+	                android:textSize="@dimen/sp17" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

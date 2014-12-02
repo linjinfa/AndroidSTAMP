@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/comm_bg_grey"
+    android:padding="10dp"
+    android:orientation="vertical" 
+    android:contentDescription="营养不良风险"
+    >
+    
+    <RadioButton 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17"
+        android:text="不存在"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/sp15"
+        android:text="{门诊手术；营养调查}"
+        />
+    
+    <RadioButton 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17"
+        android:text="可能存在"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/sp15"
+        android:text="{饮食行为问题；先心病；脑瘫；唇裂和腭裂；腹腔疾病；糖尿病；胃食管反流；小手术；神经肌肉病；精神病；呼吸道合胞病毒；单一的食物过敏/不耐受}"
+        />
+    
+    <RadioButton 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp17"
+        android:text="肯定存在"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/sp15"
+        android:text="{肠衰竭、顽固性腹泻；烧伤及严重创伤；克罗恩病；囊性纤维化；吞咽困难；肝脏疾病；大手术；多种食物过敏/不耐受；积极治疗中的肿瘤；肾病/肾衰竭；骨髓移植；早产儿}"
+        />
+    
+</RadioGroup>
